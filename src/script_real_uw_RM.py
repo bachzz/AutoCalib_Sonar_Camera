@@ -85,6 +85,7 @@ for pair in zip(init_ranges['x'], init_ranges['yaw']):
     image_opt = calib.project_sonar_pointcloud_to_image(ext_vec_opt, sonars[fid], cv2.convertScaleAbs(calib.images_bgr[fid], alpha=1, beta=1 )) 
     cv2.imshow('', image_opt)
     cv2.waitKey(0)
+    breakpoint()
 
 
 print(f"x_opt = {x_opt} - mean = {np.array(x_opt).mean()} - err_mean = {(np.array(gt_params['x']) - np.array(x_opt)).mean()} - std = {np.array(x_opt).std()}")

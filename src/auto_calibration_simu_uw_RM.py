@@ -198,6 +198,7 @@ class AutoCalibration():
             
             # RM = cv2.medianBlur(RM, 3) # 3
             RM = guidedFilter(im_GRAY, RM, 3, 2.5, -1)
+            # RM = guidedFilter(im_GRAY, RM, 15, 1.8, -1) 
             
             self.images.append(im_GRAY)
             self.images_RM.append(RM)

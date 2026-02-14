@@ -231,7 +231,7 @@ class AutoCalibration():
             # breakpoint()
             
             RM = cv2.medianBlur(RM, 31) # 31
-            # RM = guidedFilter(im_GRAY, RM, 3, 2.5, -1)#15, 2.6, -1)
+            # RM = guidedFilter(im_GRAY, RM, 3, 2.5, -1)#15, 1.8, -1)
             # RM = cv2.bilateralFilter(RM, 9, 75,75)
             # RM = cv2.convertScaleAbs(RM, alpha=1.5)#2.5) #2)#1.5)
             # RM = cv2.convertScaleAbs(RM, alpha=3)
