@@ -3,6 +3,9 @@
 Source code for paper: "Mutual Information -based Extrinsic Calibration of Camera-Sonar system leveraging
 Sonar pseudo-pointcloud and Underwater Light Attenuation Prior"
 
+## Related:
+AutoCalib_Lidar_Camera: https://github.com/bachzz/AutoCalib_Lidar_Camera
+
 ## Data
 You can obtain data from the following link: https://drive.google.com/drive/u/3/folders/1Ln7P6Haxj0c4bQeI53CX5XYzsy-R2j6t ,
 then unzip to `data/` folder
